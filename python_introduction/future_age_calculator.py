@@ -1,5 +1,5 @@
 #Taking input from user 
-age = input("What is your current age ")
+age = input("How old are you")
 
 #manipulating future age 
 future_age = int(age) + 27
