@@ -1,5 +1,5 @@
 #Taking input from the user
-income = int(input("Enter your montly income: "))
+income = int(input("Enter your monthly income:"))
 
 expenses = int(input("Enter your total monthly expenses:"))
 
