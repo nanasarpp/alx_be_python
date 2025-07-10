@@ -1,10 +1,10 @@
 #Taking input from the user
-income = input("Enter your monthly income:")
+monthly_income = input("Enter your monthly income:")
 
-expenses = input("Enter your total monthly expenses:")
+monthly_expenses = input("Enter your total monthly expenses:")
 
 #calculating the monthly savings 
-monthly_savings = int(income) - int(expenses)
+monthly_savings = int(monthly_income) - int(monthly_expenses)
 
 #Finding the simple interest on the savings 
 projected_savings = monthly_savings*12 +int((monthly_savings*12*0.05))
